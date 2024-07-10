@@ -1,0 +1,239 @@
+/* Start Glopal Styling */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.text-red {
+  color: #d62e33 !important;
+}
+/* End Glopal Styling */
+/* Start home */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/events-heavenly-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #fff;
+  position: relative;
+}
+.home .home-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.home .home-overlay .home-content {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 16px;
+}
+.home .home-overlay .sidebar-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-15px);
+  -ms-transform: translateY(-15px);
+  transform: translateY(-15px);
+}
+.home .home-caption h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+/* End home */
+/* Start Sidebar */
+.side-bar {
+  width: 0;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  background-color: #111;
+  overflow: hidden;
+  padding-top: 50px;
+  display: none !important;
+  padding-left: 0;
+  z-index: 999;
+}
+.side-bar .close-btn {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  font-size: 25px;
+}
+.side-bar a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  padding: 20px 8px 20px 5px;
+}
+.side-bar a i {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.side-bar a:hover,
+.side-bar a i:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+/* End Sidebar */
+/* Start Slider */
+.slider-down {
+  width: 50%;
+  margin: 100px auto;
+}
+.slider-down h3 {
+  background-color: #e68285;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.slider-down div.inner:not(div.first) {
+  background-color: #cccccc;
+  padding: 10px;
+  display: none;
+}
+.slider-down div.first {
+  background-color: #cccccc;
+  padding: 10px;
+  display: block;
+}
+/* End Slider */
+/* Start Count */
+.count {
+  background-image: url(../img/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  height: 330px;
+  position: relative;
+}
+.count .count-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+}
+.count .count-container {
+  padding-top: 100px;
+}
+.count .inner-count {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+/* End Count */
+/* Start Contact */
+.contact-us {
+  margin-top: 25px;
+  padding: 100px 0;
+}
+.contact-us .head h2 {
+  color: #444;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-us .head p {
+  color: #777;
+  font-size: 16px;
+  font-weight: 300;
+}
+.contact-us .contact-info h3 {
+  color: #444;
+  font-size: 18px;
+  font-weight: bold;
+}
+.contact-us .contact-info p {
+  color: #777;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.contact-us .contact-icons {
+  margin-top: 50px;
+}
+.contact-us .contact-icons p {
+  margin-bottom: 35px;
+}
+.contact-us .contact-icons p i {
+  margin-right: 20px;
+  color: #777;
+}
+.contact-us .contact-info .social-links a {
+  margin-top: 50px;
+  color: #777;
+}
+.contact-us .contact-info .social-links a i {
+  margin-right: 10px;
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  text-align: center;
+}
+.contact-us .contact-info .social-links i:hover {
+  color: #fff;
+  background-color: #d62e33;
+  border: none;
+}
+.contact-us .contact-form input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+.contact-us .contact-form textarea {
+  height: 200px;
+  border-radius: 0;
+}
+.contact-us .contact-form .contact-btn {
+  display: block;
+  margin-top: 20px;
+  background-color: #d62e33;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+/* End Contact */
+/* Start Media Query */
+@media (max-width: 990px) {
+  .home .home-caption h2 {
+    font-size: 31px;
+    font-weight: 500;
+  }
+  .home .home-overlay .sidebar-btn {
+    font-size: 24px;
+  }
+  .side-bar {
+    padding-top: 0;
+    padding-left: 0;
+    width: 200px;
+  }
+  .slider-down {
+    width: 100%;
+    margin: 74px auto;
+  }
+  .count {
+    height: 800px;
+    background-size: cover;
+    background-position: 28% 50%;
+  }
+  .contact-us .contact-icons p {
+    margin-bottom: 11px;
+  }
+  .contact-form {
+    margin-top: 50px;
+  }
+}
+/* End Media Query */
